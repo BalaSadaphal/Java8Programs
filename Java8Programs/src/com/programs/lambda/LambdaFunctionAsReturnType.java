@@ -21,3 +21,4 @@ public class LambdaFunctionAsReturnType {
 		System.out.println(cube().calculate(10));
 	}
 }
+
