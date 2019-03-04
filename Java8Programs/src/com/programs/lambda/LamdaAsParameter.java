@@ -1,4 +1,4 @@
-package com.basic.programs.lambda;
+package com.programs.lambda;
 
 interface Operations {
 	int operate(int a);
