@@ -10,7 +10,7 @@ public class LamdaAsArgument {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Passing lambda as a parameter\n");
+		System.out.println("Passing lambda as a argument\n");
 
 		System.out.println("Sum of Sqaures of numbers 1, 2 ->    " + sum(1, 2, a -> a * a));
 		System.out.println("Sum of Cubes of numbers 1, 2   ->    " + sum(1, 2, a -> a * a * a));

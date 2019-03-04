@@ -18,8 +18,4 @@ public class LmbdaFunctionAsReturnTypeAndArgument {
 		System.out.println(addition(10, 20, x-> x*x).calculate());
 		System.out.println(addition(2, 2, x-> x*x*x).calculate());
 	}
-	
-	
-	
-
 }
