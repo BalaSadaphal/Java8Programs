@@ -8,7 +8,7 @@ interface Maths{
 }
 
 
-public class LmbdaFunctionAsReturnTypeAndParameter {
+public class LmbdaFunctionAsReturnTypeAndArgument {
 	
 	static Maths addition(int a,int b,ComplexMaths calculation) {
 		return ()-> calculation.multiply(a)+ calculation.multiply(b);

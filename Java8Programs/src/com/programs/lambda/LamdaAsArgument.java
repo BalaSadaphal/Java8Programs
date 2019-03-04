@@ -4,7 +4,7 @@ interface Operations {
 	int operate(int a);
 }
 
-public class LamdaAsParameter {
+public class LamdaAsArgument {
 	static int sum(int a, int b, Operations operations) {
 		return operations.operate(a) + operations.operate(b);
 	}
