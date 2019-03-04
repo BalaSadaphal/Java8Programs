@@ -1,4 +1,4 @@
-package com.basic.programs;
+package com.basic.programs.lambda;
 
 //@FunctionalInterface
 interface FibonacciCalculator {

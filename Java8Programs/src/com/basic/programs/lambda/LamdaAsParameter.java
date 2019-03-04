@@ -1,10 +1,10 @@
-package com.basic.programs;
+package com.basic.programs.lambda;
 
 interface Operations {
 	int operate(int a);
 }
 
-public class FunctionalProgrammingLamdaAsParameter {
+public class LamdaAsParameter {
 	static int sum(int a, int b, Operations operations) {
 		return operations.operate(a) + operations.operate(b);
 	}
