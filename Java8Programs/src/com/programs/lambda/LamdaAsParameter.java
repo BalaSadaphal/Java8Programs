@@ -17,7 +17,7 @@ public class LamdaAsParameter {
 
 		System.out.println("\n<===========================>\n");
 
-		int nCr = nCr(10, 2, x -> {
+		int nCr_10_2 = nCr(10, 2, x -> {
 			int i = x - 1;
 			while (i > 0) {
 				x = x * i;
@@ -25,7 +25,7 @@ public class LamdaAsParameter {
 			}
 			return x;
 		});
-		System.out.println("nCr = " + nCr);
+		System.out.println("nCr_10_2 = " + nCr_10_2);
 	}
 
 	static int nCr(int n, int r, Operations operations) {
