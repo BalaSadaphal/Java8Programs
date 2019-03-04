@@ -1,4 +1,4 @@
-package com.basic.programs.lambda;
+package com.programs.lambda;
 
 public class LambdaFunctionAsReturnType {
 
